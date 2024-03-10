@@ -1,1 +1,6 @@
-# Dual-Machine-Multi-Thread-Instruction-Computing-Acceleration-Algorithm
+my.cpp在包含目录中存在不可描述的问题，若您在运行中出现未找到my.cpp的问题，请将项目属性中：VC++目录->包含目录中，添加当前目录（即包含my.cpp的目录）
+双机程序运行说明：
+
+3、双机加速版程序在运行前需要做修改。在reciever的第59行，sender的61行，均需将IP地址改为reciever的IP地址。
+注：排序检查函数checkSort的返回值为1代表排序正确，为0代表排序错误。
+
